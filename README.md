@@ -1,4 +1,4 @@
-# fuckjack
+# FUCK JACK
 
 ### How to get it ###
 ```bash
@@ -8,9 +8,9 @@ git clone git://github.com/mikecriggs/fuckjack.git fuckjack
 ### How to use it ###
 ```bash
 cd fuckjack
-cp build.sh YOUR-SOURCE-DIRECTORY
-cd YOUR-SOURCE-DIRECTORY
-./build.sh DEVICE
+cp fuckjack.sh ~/<YOUR-SOURCE-DIRECTORY>
+cd <YOUR-SOURCE-DIRECTORY>
+./fuckjack.sh
 ```
 
-## Pray to almighty Google that they fix these issues in android-7.1. May the force be with you. ##
+### This is no longer a build script. Please use this BEFORE using your own build script or building manually. ###
