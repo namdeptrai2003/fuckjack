@@ -8,7 +8,10 @@
 ```
 
 ### User input dependent script ###
+```bash
   sudo -s ( then type your password and enter :) )
+  
+  
   
   cd jack_scripts
   
