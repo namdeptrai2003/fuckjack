@@ -9,10 +9,15 @@
 
 ### User input dependent script ###
   sudo -s ( then type your password and enter :) )
+  
   cd jack_scripts
+  
   cp jack_scripts.sh ~/<YOUR AOSP SOURCE DIRECTORY>
+  
   cd <YOUR AOSP SOURCE DIRECTORY>
+  
   ./jack_scripts.sh
+  
 ```
 
 ###You will see config.properties file . Just change jack.server.max-service=4 ( for me ) or another number ( for you ) to jack.server.max-service=1 and save that file. 
