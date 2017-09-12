@@ -17,12 +17,8 @@
 # Replace the value in the first of "ANDROID_JACK_VM_ARGS" with half of your RAM
 # (i.e.: if you have 8GB of ram, use "-Xmx4g")
 #
-  export ANDROID_JACK_VM_ARGS="-Xmx4g -XX:+TieredCompilation -Dfile.encoding=UTF-8"
-#
-# IMPORTANT! IMPORTANT! IMPORTANT! IMPORTANT! IMPORTANT! IMPORTANT! IMPORTANT! IMPORTANT! IMPORTANT! IMPORTANT!
+  export JACK_SERVER_VM_ARGUMENTS="-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx4g"
 
-  export SERVER_NB_COMPILE=2
-  export ANDROID_JACK_VM_ARGS=$JACK_SERVER_VM_ARGUMENT
 
 # You may need to uncomment the following command if Java tells you to use it.
 #  ulimit -n unlimited
