@@ -10,7 +10,7 @@
   printf "Fuck Jack...\n\n"
   sleep 1
   ./prebuilts/sdk/tools/jack-admin kill-server
-  rm -rf ~/.jack*
+  rm -rf .jack-server
 
 # IMPORTANT! IMPORTANT! IMPORTANT! IMPORTANT! IMPORTANT! IMPORTANT! IMPORTANT! IMPORTANT! IMPORTANT! IMPORTANT!
 #
@@ -25,3 +25,4 @@
 
   ./prebuilts/sdk/tools/jack-admin install-server prebuilts/sdk/tools/jack-launcher.jar prebuilts/sdk/tools/jack-server-4.8.ALPHA.jar
   ./prebuilts/sdk/tools/jack-admin start-server
+  gedit ~/.jack-server/config.properties 
