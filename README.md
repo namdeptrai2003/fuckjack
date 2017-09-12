@@ -12,9 +12,17 @@
   
   cd jack_scripts
   
+  
+  
   cp jack_scripts.sh ~/<YOUR AOSP SOURCE DIRECTORY>
   
+  
+  
+  
   cd <YOUR AOSP SOURCE DIRECTORY>
+  
+  
+  
   
   ./jack_scripts.sh
   
