@@ -8,13 +8,17 @@
 ```
 
 ### User input dependent script ###
-```bash
+  sudo -s ( then type your password and enter :) )
   cd jack_scripts
   cp jack_scripts.sh ~/<YOUR AOSP SOURCE DIRECTORY>
   cd <YOUR AOSP SOURCE DIRECTORY>
   ./jack_scripts.sh
- 
 ```
-### You may use this script or any part of it in any project without any permission or licensing. ###
 
-### This is no longer a build script. Please use this BEFORE using your own build script or building manually. ###
+###You will see config.properties file . Just change jack.server.max-service=4 ( for me ) or another number ( for you ) to jack.server.max-service=1 and save that file. 
+
+###Now your linux is ready to build ROM !! :D
+
+###You may use this script or any part of it in any project without any permission or licensing. ###
+
+###This is no longer a build script. Please use this BEFORE using your own build script or building manually. ###
