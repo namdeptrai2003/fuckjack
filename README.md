@@ -12,8 +12,7 @@
   cd jack_scripts
   cp jack_scripts.sh ~/<YOUR AOSP SOURCE DIRECTORY>
   cd <YOUR AOSP SOURCE DIRECTORY>
-  ./jack_scripts
- .sh
+  ./jack_scripts.sh
  
 ```
 ### You may use this script or any part of it in any project without any permission or licensing. ###
