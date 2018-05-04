@@ -18,6 +18,6 @@
 
   export JACK_SERVER_VM_ARGUMENTS="-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx4g"
   ulimit -n unlimited
-  ./prebuilts/sdk/tools/jack-admin install-server prebuilts/sdk/tools/jack-launcher.jar prebuilts/sdk/tools/jack-server-4.8.ALPHA.jar
+  ./prebuilts/sdk/tools/jack-admin install-server prebuilts/sdk/tools/jack-launcher.jar prebuilts/sdk/tools/jack-server-4.*.ALPHA.jar
   ./prebuilts/sdk/tools/jack-admin start-server
   gedit ~/.jack-server/config.properties 
